@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(205, 247, 186);
+}
+
+nav{
+    display: block;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: -95px;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+#h1{
+    color:red;
+    font-style: italic;
+}
+
+#h2{
+    color: blue;
+    font-style: italic;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #8ca3f0;
+    box-shadow: rgba(0, 0, 5.5, 5.50) 0px 1px 3px, rgba(0, 0, 0.5, 0.54) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 78px;
+
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(138, 250, 250);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(219, 2, 2);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+}
